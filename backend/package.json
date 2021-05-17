@@ -1,0 +1,21 @@
+{
+  "name": "thealtertribune",
+  "version": "1.0.0",
+  "description": "The Alter Tribune is an entirely user-generated digital newspaper with no attachment to real-world politics or news.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js && exit 1"
+  },
+  "author": "Mason Meirs",
+  "license": "MIT",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "node-schedule": "^2.0.0",
+    "racist": "^1.0.6",
+    "spam-detection": "^1.0.3"
+  }
+}

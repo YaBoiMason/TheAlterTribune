@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Submit an Article</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 class="title">Submit an Article to The Alter Tribune</h1>
+        <p class="title">Please note: Absolutely no hate speech, political/social issues, explicit content, advertising or spam.</p>
+        <h2 class="title">Author (max 15 chars)</h2>
+        <textarea id="authorfield" maxlength="15"></textarea>
+        <h2 class="title">Title (max 20 chars)</h2>
+        <textarea id="articleTitle" maxlength="20"></textarea>
+        <h2 class="title">Subtitle (max 30 chars)</h2>
+        <textarea id="subtitlefield" maxlength="30"></textarea>
+        <h2 class="title">Body (max 2000 words, minimum chars. 500)</h2>
+        <textarea id="bodyfield" minlength="500"></textarea>
+        <h2 class="title">Image (not required, max file size 10kb.)</h2>
+        <input type="file"  accept="image/gif, image/jpeg, image/png" name="image" id="file" style="
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;">
+        <button type="button" id="submit">Submit</button>
+        <h1 class="title">Don't have any ideas?</h1>
+        <ul>
+            <li>A satrical article</li>
+            <li>An important issue or topic that doesn't involve politics or social issues</li>
+            <li>Lemons</li>
+            <li>Literally anything, as long as it doesn't break the rules I honestly don't care</li>
+        </ul>
+        <script src="articleCreator.js" type="module"></script>
+    </body>
+</html>
